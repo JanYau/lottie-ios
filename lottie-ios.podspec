@@ -22,7 +22,7 @@ For the first time, designers can create and ship beautiful animations without a
   s.author           = { 'Brandon Withrow' => 'buba447@gmail.com' }
   s.source           = { :git => 'https://github.com/airbnb/lottie-ios.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.10'
   s.tvos.deployment_target = '9.0'
 
@@ -38,7 +38,7 @@ For the first time, designers can create and ship beautiful animations without a
   # s.resource_bundles = {
   #   'lottie-ios' => ['lottie-ios/Assets/*.png']
   # }
-
+  
   s.public_header_files = 'lottie-ios/Classes/PublicHeaders/*.h'
   s.ios.frameworks = 'UIKit'
   s.osx.frameworks = ['AppKit', 'CoreVideo']
